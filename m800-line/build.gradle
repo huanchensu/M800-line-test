@@ -14,6 +14,10 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.7.8'
+	// https://mvnrepository.com/artifact/com.linecorp.bot/line-bot-api-client
+	implementation group: 'com.linecorp.bot', name: 'line-bot-api-client', version: '6.0.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
