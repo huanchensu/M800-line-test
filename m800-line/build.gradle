@@ -16,8 +16,18 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.7.8'
-	// https://mvnrepository.com/artifact/com.linecorp.bot/line-bot-api-client
-	implementation group: 'com.linecorp.bot', name: 'line-bot-api-client', version: '6.0.0'
+	// https://mvnrepository.com/artifact/com.linecorp.bot/line-bot-spring-boot
+	implementation group: 'com.linecorp.bot', name: 'line-bot-spring-boot', version: '5.0.3'
+	// https://mvnrepository.com/artifact/org.projectlombok/lombok
+	compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.26'
+	
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-mongodb
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb', version: '2.7.8'
+	
+	// https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+	implementation 'org.apache.commons:commons-lang3:3.12.0'
+	
+	
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
