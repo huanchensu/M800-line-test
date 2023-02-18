@@ -7,7 +7,7 @@ spring:
       port: 27017
       username: user1
       password: user1
-
+# The token is invliad, just for reference;
 line.bot:
   channel-token: '6OcSwUg5J18lXWngLzlSZgra/Nwfc27aBgNaaBaWlLSOKaouC3un46Iqk5hPL0tCm6aZGnE3J2clBezZ/T7/gL1Aa0vh4OrRT6FTxhNhFX9ewc7SSWU5qBpbufH+9q1/gKB67FwSzji6eZpcNqiUdgdB04t89/1O/w1cDnyilFU='
   channel-secret: '572c7e5ed0a37d4d1d252c2a25a90735'
