@@ -14,7 +14,6 @@ import com.m800.line.chat.repository.LineMessageRepository;
 
 import lombok.extern.slf4j.Slf4j;
 
-@RestController
 @LineMessageHandler
 @Slf4j
 public class LineMessageListener {
